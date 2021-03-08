@@ -12,6 +12,12 @@ public class Word {
 
     public boolean match(Gap gap) {
         if(this.word.length == gap.getRawData().length) {
+            if(gap.getAdditionalInformationFlags().size() > 0) {
+                for(GapInformation gapInformation : gap.getAdditionalInformationFlags()) {
+                    if(GapInformation.doesStringFit(gapInformation, String.valueOf(this.word))) {
+                    } else return false;
+                }
+            }
             if(gap.getKnownCharacterMap().isEmpty()) {
                 return true;
             }

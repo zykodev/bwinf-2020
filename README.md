@@ -4,7 +4,7 @@ A repository containing my solutions to the problems given in the BWINF 2020.
 <br>
 
 ### Status
-1. Problem: ⏳️ (Last update: March 1 2021 @ 20:00)
+1. Problem: ✔️️ (Last update: March 8 2021 @ 20:00)
 2. Problem: ❌
 3. Problem: ❌
 4. Problem: ❌
